@@ -1,0 +1,85 @@
+{
+  "verified_against_fresh_official_metadata": [
+    {
+      "file": "model/config.json",
+      "bytes": 716,
+      "official_integrity_rechecked": true,
+      "official_hash": "d590a6643f5dcdd0cfb0477e3c291488c16fc2d7"
+    },
+    {
+      "file": "model/tokenizer.json",
+      "bytes": 439125,
+      "official_integrity_rechecked": true,
+      "official_hash": "cdb3043fc938fc918c06e66cf704c2ba58f88747"
+    },
+    {
+      "file": "model/tokenizer_config.json",
+      "bytes": 367,
+      "official_integrity_rechecked": true,
+      "official_hash": "3a59388f0fd1bd22dec2ce7902c1be8e1fb84107"
+    },
+    {
+      "file": "model/special_tokens_map.json",
+      "bytes": 125,
+      "official_integrity_rechecked": true,
+      "official_hash": "a8b3208c2884c4efb86e49300fdd3dc877220cdf"
+    },
+    {
+      "file": "model/onnx/model_quantized.onnx",
+      "bytes": 24010842,
+      "official_integrity_rechecked": true,
+      "official_hash": "15b717c382bcb518ba457b93ea6850ede7f4f1cd8937454aa06972366cd19bcc"
+    },
+    {
+      "file": "runtime/transformers.min.js",
+      "bytes": 888173,
+      "official_integrity_rechecked": true,
+      "official_hash": "aa5002b70e789798da263f5f99c62bd3e8fcd0c119258a493c40c180648365fa"
+    },
+    {
+      "file": "runtime/ort-wasm-simd-threaded.jsep.mjs",
+      "bytes": 44484,
+      "official_integrity_rechecked": true,
+      "official_hash": "08fb86ec433c78bfb032c5d84a68b8e8e5a8d81268fa39e24314179a5767a5b9"
+    },
+    {
+      "file": "runtime/ort-wasm-simd-threaded.jsep.wasm",
+      "bytes": 21596019,
+      "official_integrity_rechecked": true,
+      "official_hash": "c46655e8a94afc45338d4cb2b840475f88e5012d524509916e505079c00bfa39"
+    }
+  ],
+  "transformers_version": "3.8.1",
+  "package_lock_dependencies": {
+    "@huggingface/jinja": {
+      "version": "0.5.3",
+      "resolved": "https://registry.npmjs.org/@huggingface/jinja/-/jinja-0.5.3.tgz",
+      "integrity": "sha512-asqfZ4GQS0hD876Uw4qiUb7Tr/V5Q+JZuo2L+BtdrD4U40QU58nIRq3ZSgAzJgT874VLjhGVacaYfrdpXtEvtA==",
+      "license": "MIT",
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    "onnxruntime-web": {
+      "version": "1.22.0-dev.20250409-89f8206ba4",
+      "resolved": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.22.0-dev.20250409-89f8206ba4.tgz",
+      "integrity": "sha512-0uS76OPgH0hWCPrFKlL8kYVV7ckM7t/36HfbgoFw6Nd0CZVVbQC4PkrR8mBX8LtNUFZO25IQBqV2Hx2ho3FlbQ==",
+      "license": "MIT",
+      "dependencies": {
+        "flatbuffers": "^25.1.24",
+        "guid-typescript": "^1.0.9",
+        "long": "^5.2.3",
+        "onnxruntime-common": "1.22.0-dev.20250409-89f8206ba4",
+        "platform": "^1.3.6",
+        "protobufjs": "^7.2.4"
+      }
+    },
+    "onnxruntime-common": {
+      "version": "1.21.0",
+      "resolved": "https://registry.npmjs.org/onnxruntime-common/-/onnxruntime-common-1.21.0.tgz",
+      "integrity": "sha512-Q632iLLrtCAVOTO65dh2+mNbQir/QNTVBG3h/QdZBpns7mZ0RYbLRBgGABPbpU9351AgYy7SJf1WaeVwMrBFPQ==",
+      "license": "MIT"
+    }
+  },
+  "model_revision": "75c43b069aac4d136ba6bc1122f995fedcfd2781"
+}

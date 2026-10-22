@@ -1,0 +1,3 @@
+dist/vendor/** -text
+dist/models/** -text
+dist/licenses/** -text

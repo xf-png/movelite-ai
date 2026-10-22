@@ -1,0 +1,58 @@
+[
+  {
+    "file": "transformers-3.8.1-APACHE-2.0.txt",
+    "source": "https://raw.githubusercontent.com/huggingface/transformers.js/3.8.1/LICENSE",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "downloaded": true
+  },
+  {
+    "file": "transformers-3.8.1-package.json",
+    "source": "https://raw.githubusercontent.com/huggingface/transformers.js/3.8.1/package.json",
+    "bytes": 2694,
+    "sha256": "00c02ca357bf03c801f33c9a431c0169b99c1de1e14f2134cabc902cce53d4f3",
+    "downloaded": true
+  },
+  {
+    "file": "onnxruntime-1.22.0-dev-89f8206ba4-MIT.txt",
+    "source": "https://raw.githubusercontent.com/microsoft/onnxruntime/89f8206ba4/LICENSE",
+    "bytes": 1073,
+    "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
+    "downloaded": true
+  },
+  {
+    "file": "onnxruntime-89f8206ba4-ThirdPartyNotices.txt",
+    "source": "https://raw.githubusercontent.com/microsoft/onnxruntime/89f8206ba4/ThirdPartyNotices.txt",
+    "bytes": 326866,
+    "sha256": "e9e90971a8e75a9a8ac0c6412e29c1202d079998389915aa485f46c816c3b4cc",
+    "downloaded": true
+  },
+  {
+    "file": "huggingface-jinja-0.5.3-MIT.txt",
+    "source": "https://cdn.jsdelivr.net/npm/@huggingface/jinja@0.5.3/LICENSE",
+    "bytes": 1069,
+    "sha256": "d6e7b19451c1b3d1d66353bb4b1274138953b3bfd9ae60c56e77b1f548796982",
+    "downloaded": true
+  },
+  {
+    "file": "BAAI-bge-small-zh-v1.5-7999e1d-model-card.md",
+    "source": "https://huggingface.co/BAAI/bge-small-zh-v1.5/resolve/7999e1d3359715c523056ef9478215996d62a620/README.md",
+    "bytes": 27670,
+    "sha256": "c48a4eeea77f6b1d38b48ec1c5b8d4f86d5550cc43fa345a0db1b2ca1d082369",
+    "downloaded": true
+  },
+  {
+    "file": "Xenova-bge-small-zh-v1.5-75c43b0-model-card.md",
+    "source": "https://huggingface.co/Xenova/bge-small-zh-v1.5/resolve/75c43b069aac4d136ba6bc1122f995fedcfd2781/README.md",
+    "bytes": 1057,
+    "sha256": "cb22054df1a98f7ee9d5b281d023e67c27cc316e1733baf03fc994d95c3048ab",
+    "downloaded": true
+  },
+  {
+    "file": "FlagEmbedding-MIT.txt",
+    "source": "https://raw.githubusercontent.com/FlagOpen/FlagEmbedding/master/LICENSE",
+    "bytes": 1065,
+    "sha256": "587a673933425dbc36ec61268d3b954051b2d3ef3c9b322ede357976055ffdd5",
+    "downloaded": true
+  }
+]

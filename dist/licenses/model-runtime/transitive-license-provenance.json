@@ -1,0 +1,139 @@
+[
+  {
+    "package": "@huggingface/jinja@0.5.3",
+    "file": "huggingface-jinja0.5.3-LICENSE",
+    "source": "https://cdn.jsdelivr.net/npm/@huggingface/jinja@0.5.3/LICENSE",
+    "bytes": 1069,
+    "sha256": "d6e7b19451c1b3d1d66353bb4b1274138953b3bfd9ae60c56e77b1f548796982",
+    "official_jsdelivr_hash_verified": true
+  },
+  {
+    "package": "flatbuffers@25.1.24",
+    "file": "flatbuffers25.1.24-LICENSE",
+    "source": "https://cdn.jsdelivr.net/npm/flatbuffers@25.1.24/LICENSE",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "official_jsdelivr_hash_verified": true
+  },
+  {
+    "package": "guid-typescript@1.0.9",
+    "file": "guid-typescript1.0.9-package-metadata.json",
+    "source": "https://registry.npmjs.org/guid-typescript/1.0.9",
+    "bytes": 2687,
+    "sha256": "6378c2ba06b0a41e033140a30359ba77fbf8706e46a2c9913d9ffff318c3d23a",
+    "declared_license": "ISC",
+    "note": "Exact npm metadata retained; package and upstream repository do not include a standalone LICENSE file."
+  },
+  {
+    "package": "long@5.2.3",
+    "file": "long5.2.3-LICENSE",
+    "source": "https://cdn.jsdelivr.net/npm/long@5.2.3/LICENSE",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "official_jsdelivr_hash_verified": true
+  },
+  {
+    "package": "platform@1.3.6",
+    "file": "platform1.3.6-LICENSE",
+    "source": "https://cdn.jsdelivr.net/npm/platform@1.3.6/LICENSE",
+    "bytes": 1095,
+    "sha256": "4a161ebed4f1ef933e16ccfa00d86c718703f5d015a9987ea7ce1bb72a43cd22",
+    "official_jsdelivr_hash_verified": true
+  },
+  {
+    "package": "protobufjs@7.2.6",
+    "file": "protobufjs7.2.6-google-LICENSE",
+    "source": "https://cdn.jsdelivr.net/npm/protobufjs@7.2.6/google/LICENSE",
+    "bytes": 1476,
+    "sha256": "4ab87e6e3c0c0b78e47c77d49ec10c048f8a519fb8062e6e3217e3e6e9b0c6e9",
+    "official_jsdelivr_hash_verified": true
+  },
+  {
+    "package": "protobufjs@7.2.6",
+    "file": "protobufjs7.2.6-LICENSE",
+    "source": "https://cdn.jsdelivr.net/npm/protobufjs@7.2.6/LICENSE",
+    "bytes": 1937,
+    "sha256": "49d6a1c9a623784c61c6cb70f773f3457faceb1914a13c8560a9823b7631950c",
+    "official_jsdelivr_hash_verified": true
+  },
+  {
+    "package": "@protobufjs/aspromise@1.1.2",
+    "file": "protobufjs-aspromise1.1.2-LICENSE",
+    "source": "https://cdn.jsdelivr.net/npm/@protobufjs/aspromise@1.1.2/LICENSE",
+    "bytes": 1505,
+    "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794",
+    "official_jsdelivr_hash_verified": true
+  },
+  {
+    "package": "@protobufjs/base64@1.1.2",
+    "file": "protobufjs-base641.1.2-LICENSE",
+    "source": "https://cdn.jsdelivr.net/npm/@protobufjs/base64@1.1.2/LICENSE",
+    "bytes": 1505,
+    "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794",
+    "official_jsdelivr_hash_verified": true
+  },
+  {
+    "package": "@protobufjs/codegen@2.0.4",
+    "file": "protobufjs-codegen2.0.4-LICENSE",
+    "source": "https://cdn.jsdelivr.net/npm/@protobufjs/codegen@2.0.4/LICENSE",
+    "bytes": 1505,
+    "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794",
+    "official_jsdelivr_hash_verified": true
+  },
+  {
+    "package": "@protobufjs/eventemitter@1.1.0",
+    "file": "protobufjs-eventemitter1.1.0-LICENSE",
+    "source": "https://cdn.jsdelivr.net/npm/@protobufjs/eventemitter@1.1.0/LICENSE",
+    "bytes": 1505,
+    "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794",
+    "official_jsdelivr_hash_verified": true
+  },
+  {
+    "package": "@protobufjs/fetch@1.1.0",
+    "file": "protobufjs-fetch1.1.0-LICENSE",
+    "source": "https://cdn.jsdelivr.net/npm/@protobufjs/fetch@1.1.0/LICENSE",
+    "bytes": 1505,
+    "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794",
+    "official_jsdelivr_hash_verified": true
+  },
+  {
+    "package": "@protobufjs/float@1.0.2",
+    "file": "protobufjs-float1.0.2-LICENSE",
+    "source": "https://cdn.jsdelivr.net/npm/@protobufjs/float@1.0.2/LICENSE",
+    "bytes": 1505,
+    "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794",
+    "official_jsdelivr_hash_verified": true
+  },
+  {
+    "package": "@protobufjs/inquire@1.1.0",
+    "file": "protobufjs-inquire1.1.0-LICENSE",
+    "source": "https://cdn.jsdelivr.net/npm/@protobufjs/inquire@1.1.0/LICENSE",
+    "bytes": 1505,
+    "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794",
+    "official_jsdelivr_hash_verified": true
+  },
+  {
+    "package": "@protobufjs/path@1.1.2",
+    "file": "protobufjs-path1.1.2-LICENSE",
+    "source": "https://cdn.jsdelivr.net/npm/@protobufjs/path@1.1.2/LICENSE",
+    "bytes": 1505,
+    "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794",
+    "official_jsdelivr_hash_verified": true
+  },
+  {
+    "package": "@protobufjs/pool@1.1.0",
+    "file": "protobufjs-pool1.1.0-LICENSE",
+    "source": "https://cdn.jsdelivr.net/npm/@protobufjs/pool@1.1.0/LICENSE",
+    "bytes": 1505,
+    "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794",
+    "official_jsdelivr_hash_verified": true
+  },
+  {
+    "package": "@protobufjs/utf8@1.1.0",
+    "file": "protobufjs-utf81.1.0-LICENSE",
+    "source": "https://cdn.jsdelivr.net/npm/@protobufjs/utf8@1.1.0/LICENSE",
+    "bytes": 1505,
+    "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794",
+    "official_jsdelivr_hash_verified": true
+  }
+]

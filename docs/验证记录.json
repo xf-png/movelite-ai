@@ -1,0 +1,101 @@
+{
+  "version": "1.0.0",
+  "date": "2026-10-22",
+  "automatedChecks": {
+    "engine": 14,
+    "inventory": 13
+  },
+  "browser": {
+    "pass": true,
+    "browser": "Chrome",
+    "checks": [
+      "Demo plans execute in the optimizer Worker and respect capacity",
+      "Locked items over capacity produce an explicit infeasible state; undo restores it",
+      "Fixed vehicle quotes choose a cheaper larger vehicle rather than proportional savings",
+      "Natural-language import creates only reviewable drafts and keeps HTML inert",
+      "Actual browser BGE/WASM classifies drafts from local files without changing their estimates",
+      "Confirmed items enter plans while remaining drafts stay excluded",
+      "A completed sale locks its action and records actual money separately",
+      "Opt-in browser saving survives reload with completed sales and actual income",
+      "Backups, Markdown and calendar exports contain live user data",
+      "Restoring a valid backup recovers its completed action and actual income",
+      "Responsive pages and modal forms have no horizontal overflow"
+    ],
+    "errors": [],
+    "externalRequests": [],
+    "actualModelRequests": [
+      "http://127.0.0.1:4173/vendor/transformers/3.8.1/transformers.min.js",
+      "http://127.0.0.1:4173/models/75c43b069aac4d136ba6bc1122f995fedcfd2781/Xenova/bge-small-zh-v1.5/tokenizer.json",
+      "http://127.0.0.1:4173/models/75c43b069aac4d136ba6bc1122f995fedcfd2781/Xenova/bge-small-zh-v1.5/tokenizer_config.json",
+      "http://127.0.0.1:4173/models/75c43b069aac4d136ba6bc1122f995fedcfd2781/Xenova/bge-small-zh-v1.5/config.json",
+      "http://127.0.0.1:4173/models/75c43b069aac4d136ba6bc1122f995fedcfd2781/Xenova/bge-small-zh-v1.5/onnx/model_quantized.onnx",
+      "http://127.0.0.1:4173/vendor/transformers/3.8.1/ort-wasm-simd-threaded.jsep.mjs",
+      "http://127.0.0.1:4173/vendor/transformers/3.8.1/ort-wasm-simd-threaded.jsep.wasm"
+    ],
+    "viewportChecks": [
+      "1440x1020",
+      "390x844"
+    ]
+  },
+  "realModel": {
+    "cache": true,
+    "noCache": true,
+    "dimensions": 512,
+    "protectedFieldsUnchanged": true,
+    "externalRequests": [],
+    "examples": [
+      {
+        "name": "平底煎锅",
+        "expectedCategory": "kitchen",
+        "actualCategory": "kitchen",
+        "matchesExpected": true,
+        "requiresUserReview": false
+      },
+      {
+        "name": "人体工学椅",
+        "expectedCategory": "furniture",
+        "actualCategory": "furniture",
+        "matchesExpected": true,
+        "requiresUserReview": false
+      },
+      {
+        "name": "专业书与小说",
+        "expectedCategory": "books",
+        "actualCategory": "books",
+        "matchesExpected": true,
+        "requiresUserReview": false
+      },
+      {
+        "name": "露营帐篷",
+        "expectedCategory": "sports",
+        "actualCategory": "other",
+        "matchesExpected": false,
+        "requiresUserReview": true
+      },
+      {
+        "name": "羽毛球拍",
+        "expectedCategory": "sports",
+        "actualCategory": "sports",
+        "matchesExpected": true,
+        "requiresUserReview": false
+      },
+      {
+        "name": "用来打羽毛球的拍子",
+        "expectedCategory": "sports",
+        "actualCategory": "sports",
+        "matchesExpected": true,
+        "requiresUserReview": false
+      }
+    ],
+    "sourceHashes": {
+      "model.js": "1c926d009a10b992a3eefc40e0647740670194ea0aa1092ef740491c6322a7e9",
+      "inventory.js": "8ae7e09a22eb868a0218a8d1b690ea7550762ec273c7d55b1104a85893168f00",
+      "engine.js": "dd1c619a989d67277f1be40a37aeb5a0a074fed0d0ec340aafa033ccb529d79d"
+    }
+  },
+  "limits": [
+    "Hand-selected examples are not an accuracy benchmark.",
+    "Desktop Chrome mobile viewport is not a real iOS/Android device test.",
+    "Business assumptions have not been validated with actual paying users."
+  ]
+}
